@@ -1,7 +1,7 @@
 #--coding:utf-8--
 
 days = "Mon Tue Wed Thu Fri Sat Sun"
-months = "Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug"
+months = "\nJan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug"
 
 print "hrer are the days:", days
 print "here are the months:",months
