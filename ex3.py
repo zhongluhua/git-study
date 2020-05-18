@@ -1,13 +1,24 @@
 #--coding:utf-8--
-# +plus 加号
-# -minus 减号
-# /slash 斜杠
-# *asterisk 星号
-# %percent 百分号
-# <less-than 小于号
-# >greater-than 大于号
-# <=less-than-equal 小于等于号
-# >=greater-than-equal 大于等于号
+"""
+    三个双引号，对整个文档的注释
+
+    +plus 加号
+    -minus 减号
+    /slash 斜杠
+    *asterisk 星号
+    %percent 百分号
+    <less-than 小于号
+    >greater-than 大于号
+    <=less-than-equal 小于等于号
+    >=greater-than-equal 大于等于号
+ """
+
+'''
+    对某一段代码的注释
+    可以写很行
+'''
+
+#   对某一行代码的注释
 
 print "i will now count my chickens:"
 print "hens", 25 + 30 /6
