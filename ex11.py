@@ -4,8 +4,9 @@
 # input()和raw_input()这两个函数均能接收字符串，但raw_input()直接读取控制台的输入（任何
 # 类型的输入它都可以接收）。而对于input(),它希望能够读取一个合法的python表达式，即你输入字符
 # 串的时候必须使用引号将它括起来，否则它会引发一个SyntaxError
+# 注意，print后面加了一个逗号comma，这样的话print就不会输出新行符而结束这一行跑到下一行去
 
-print "how old are you?",
+print "how old are you?"
 age = raw_input()
 print "how tall are you ?",
 height = raw_input()
